@@ -1,3 +1,27 @@
+# Virtual Environments
 venv/
+.env/
+
+# Python cache
 __pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
 .ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large datasets (optional)
+*.zip
+*.parquet
+
+# Model files (for future ML projects)
+*.pkl
+*.joblib
+*.h5
